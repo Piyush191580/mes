@@ -6,7 +6,7 @@ MOV R0,A;
 MOV A,#25H;
 MOV B,#15H;
 SUBB A,B;
-MOV R0,A;
+MOV R1,A;
 
 MOV A, #12H;
 MOV B, #10H;
