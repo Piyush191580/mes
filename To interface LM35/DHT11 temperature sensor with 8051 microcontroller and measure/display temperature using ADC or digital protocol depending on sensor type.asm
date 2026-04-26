@@ -4,7 +4,7 @@ ORG 0000H
 MAIN:
     ACALL READ_ADC
     MOV B, #2
-    DIV AB             ; Convert to °C (approx)
+    DIV AB             ; Convert to Â°C (approx)
     MOV A, B
     ACALL DISPLAY
     SJMP MAIN
